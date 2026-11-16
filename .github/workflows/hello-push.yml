@@ -1,0 +1,16 @@
+name: Lab 01 - Exercício 03 - Hello Flow por Push
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Preparar demonstração
+        run: sleep 35
+      - name: Diga oi
+        run: echo "Hello World!"
+      - name: Diga valeu
+        run: echo "Valeu - bye!"
