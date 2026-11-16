@@ -1,6 +1,7 @@
 name: Lab 01 - Exercício 02 - Hello Flow Programado
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "*/5 * * * *"
 
